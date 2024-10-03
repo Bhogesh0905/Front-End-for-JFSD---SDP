@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>EduTrack Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #2b1055, #7597de);
+            color: white;
+        }
+        .nav-link {
+            transition: color 0.3s;
+        }
+        .nav-link:hover {
+            color: #ff4081;
+        }
+        .form-input {
+            background: linear-gradient(135deg, #ffffff, #e0e0e0);
+        }
+        .form-input:focus {
+            outline: none;
+            box-shadow: 0 0 5px #ff4081;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+    <header class="p-6 flex justify-between items-center">
+        <div class="text-2xl font-bold">EduTrack</div>
+        <nav class="space-x-6">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="AboutUs.html" class="nav-link">About Us</a>
+            <a href="ContactUs.html" class="nav-link">Contact Us</a>
+            <a href="Login.html" class="nav-link border border-white px-4 py-2 rounded">LOGIN</a>
+        </nav>
+    </header>
+    <main class="flex-grow flex flex-col items-center">
+        <div class="w-full max-w-4xl p-8">
+            <div class="border-b border-pink-500 mb-8"></div>
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h1 class="text-4xl font-bold mb-4">Get in Touch with Us</h1>
+                    <p class="italic mb-4">Please fill out the form below to send us an email.</p>
+                    <p class="mb-4">We're here to help! Whether you have questions about using Profolio, need assistance with your account, or have suggestions for improvements, feel free to reach out to us. Our team is ready to assist you.</p>
+                    <p class="font-bold">E-mail:</p>
+                    <p>profolio@gmail.com</p>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="#"><i class="fab fa-instagram text-2xl"></i></a>
+                        <a href="#"><i class="fab fa-linkedin text-2xl"></i></a>
+                        <a href="#"><i class="fas fa-envelope text-2xl"></i></a>
+                        <a href="#"><i class="fas fa-globe text-2xl"></i></a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <form class="space-y-4">
+                        <input type="text" placeholder="NAME" class="form-input w-full p-4 rounded">
+                        <input type="email" placeholder="E-MAIL" class="form-input w-full p-4 rounded">
+                        <input type="text" placeholder="SUBJECT" class="form-input w-full p-4 rounded">
+                        <textarea placeholder="MESSAGE" class="form-input w-full p-4 rounded h-32"></textarea>
+                        <button type="submit" class="bg-pink-600 text-white px-6 py-3 rounded-full">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="p-6 text-center text-sm">
+        <div class="space-x-4">
+            <a href="#" class="nav-link">Terms of Use</a>
+            <a href="#" class="nav-link">Privacy Policy</a>
+            <a href="#" class="nav-link">Brand Policy</a>
+            <a href="#" class="nav-link">Copyright policy</a>
+        </div>
+        <div class="mt-2">&copy; 2024</div>
+    </footer>
+</body>
+</html>

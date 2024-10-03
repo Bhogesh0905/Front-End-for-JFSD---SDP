@@ -1,0 +1,104 @@
+<html>
+<head>
+    <title>Weekly Task Update</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #2b1055, #7597de);
+            color: white;
+        }
+        .sidebar {
+            background: linear-gradient(135deg, #8e2de2, #4a00e0);
+        }
+        .sidebar a {
+            color: white;
+        }
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+        .task-item {
+            background-color: white;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .task-item i {
+            margin-left: 10px;
+        }
+        .update-button {
+            background-color: #e63946;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .update-button:hover {
+            background-color: #d62828;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <header class="flex justify-between items-center p-4">
+        <div class="text-3xl font-bold">EduTrack</div>
+        <nav class="flex space-x-4">
+            <a href="#" class="hover:underline">Home</a>
+            <a href="#" class="hover:underline">About Us</a>
+            <a href="#" class="hover:underline">Dashboard</a>
+            <a href="#" class="hover:underline">Contact Us</a>
+            <a href="#" class="border border-white px-4 py-1 rounded hover:bg-white hover:text-black">TUTOR</a>
+        </nav>
+    </header>
+    <div class="flex flex-1">
+        <aside class="sidebar w-1/4 p-4 flex flex-col justify-between">
+            <div>
+                <h2 class="text-xl font-bold mb-4">Update Tasks/Events</h2>
+                <ul>
+                    <li class="mb-2"><a href="#" class="hover:underline">Today</a></li>
+                    <li class="mb-2"><a href="#" class="hover:underline">This Week</a></li>
+                    <li class="mb-2"><a href="#" class="hover:underline">This Month</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="home.html" class="hover:underline">Sign out</a>
+                <div class="flex space-x-2 mt-4">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </aside>
+        <main class="flex-1 p-8">
+            <h1 class="text-5xl font-bold mb-8">Weekly Task Update</h1>
+            <div class="task-item">
+                <span>Assignments of Project</span>
+                <i class="far fa-calendar-alt"></i>
+            </div>
+            <div class="task-item">
+                <span>Submission of Pro-B</span>
+                <i class="far fa-calendar-alt"></i>
+            </div>
+            <div class="task-item">
+                <span>Complete Survey</span>
+                <i class="far fa-calendar-alt"></i>
+            </div>
+            <button class="update-button mt-4">Update</button>
+        </main>
+    </div>
+    <footer class="text-center p-4">
+        <div class="flex justify-center space-x-4">
+            <a href="#" class="hover:underline">Terms of Use</a>
+            <a href="#" class="hover:underline">Privacy Policy</a>
+            <a href="#" class="hover:underline">Brand Policy</a>
+            <a href="#" class="hover:underline">Copyright policy</a>
+        </div>
+        <div class="mt-2">&copy; 2024</div>
+    </footer>
+</body>
+</html>

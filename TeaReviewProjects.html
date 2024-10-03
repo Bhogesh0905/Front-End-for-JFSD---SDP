@@ -1,0 +1,117 @@
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-r from-purple-900 to-black text-white min-h-screen">
+    <header class="flex justify-between items-center p-4 border-b border-pink-500">
+        <div class="text-2xl font-bold">EduTrack</div>
+        <nav class="space-x-4">
+            <a href="#" class="hover:underline">Home</a>
+            <a href="#" class="hover:underline">About Us</a>
+            <a href="#" class="hover:underline">Dashboard</a>
+            <a href="#" class="hover:underline">Contact Us</a>
+            <a href="#" class="border border-white px-4 py-1 rounded hover:bg-white hover:text-black">TUTOR</a>
+        </nav>
+    </header>
+    <div class="flex">
+        <aside class="w-1/4 bg-gradient-to-b from-purple-900 to-purple-700 p-4">
+            <h2 class="text-xl font-bold mb-4">Review Projects</h2>
+            <ul class="space-y-2">
+                <li class="flex items-center space-x-2">
+                    <div class="w-4 h-4 bg-green-500 rounded-full"></div>
+                    <span>Planning</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                    <div class="w-4 h-4 bg-teal-500 rounded-full"></div>
+                    <span>Designing</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                    <div class="w-4 h-4 bg-pink-500 rounded-full"></div>
+                    <span>Prototype</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                    <div class="w-4 h-4 bg-yellow-500 rounded-full"></div>
+                    <span>Testing</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                    <div class="w-4 h-4 bg-red-500 rounded-full"></div>
+                    <span>Executed</span>
+                </li>
+            </ul>
+            <a href="#" class="block mt-4 text-lg font-bold hover:underline">Sign out</a>
+            <div class="flex space-x-2 mt-4">
+                <a href="#"><i class="fab fa-instagram text-2xl"></i></a>
+                <a href="#"><i class="fab fa-linkedin text-2xl"></i></a>
+                <a href="#"><i class="fab fa-github text-2xl"></i></a>
+                <a href="#"><i class="fas fa-envelope text-2xl"></i></a>
+            </div>
+        </aside>
+        <main class="w-3/4 p-8">
+            <h1 class="text-4xl font-bold mb-8">Progress Review</h1>
+            <div class="space-y-4">
+                <div class="flex items-center space-x-4">
+                    <div class="bg-gray-200 text-black px-4 py-2 rounded-full flex-1">Project C</div>
+                    <div class="flex space-x-2">
+                        <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-check text-white"></i>
+                        </div>
+                        <div class="w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-check text-white"></i>
+                        </div>
+                        <div class="w-8 h-8 bg-yellow-500 rounded-full"></div>
+                        <div class="w-8 h-8 bg-orange-500 rounded-full"></div>
+                        <div class="w-8 h-8 bg-red-500 rounded-full"></div>
+                    </div>
+                    <button class="bg-red-600 text-white px-4 py-2 rounded">Submit</button>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="bg-gray-200 text-black px-4 py-2 rounded-full flex-1">Project B</div>
+                    <div class="flex space-x-2">
+                        <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-check text-white"></i>
+                        </div>
+                        <div class="w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-check text-white"></i>
+                        </div>
+                        <div class="w-8 h-8 bg-yellow-500 rounded-full"></div>
+                        <div class="w-8 h-8 bg-orange-500 rounded-full"></div>
+                        <div class="w-8 h-8 bg-red-500 rounded-full"></div>
+                    </div>
+                    <button class="bg-red-600 text-white px-4 py-2 rounded">Submit</button>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="bg-gray-200 text-black px-4 py-2 rounded-full flex-1">Project A</div>
+                    <div class="flex space-x-2">
+                        <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-check text-white"></i>
+                        </div>
+                        <div class="w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-check text-white"></i>
+                        </div>
+                        <div class="w-8 h-8 bg-yellow-500 rounded-full"></div>
+                        <div class="w-8 h-8 bg-orange-500 rounded-full"></div>
+                        <div class="w-8 h-8 bg-red-500 rounded-full"></div>
+                    </div>
+                    <button class="bg-red-600 text-white px-4 py-2 rounded">Submit</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="flex justify-between items-center p-4 border-t border-pink-500 mt-8">
+        <div class="space-x-4">
+            <a href="#" class="hover:underline">Terms of Use</a>
+            <a href="#" class="hover:underline">Privacy Policy</a>
+            <a href="#" class="hover:underline">Brand Policy</a>
+            <a href="#" class="hover:underline">Copyright Policy</a>
+        </div>
+        <div>© 2024</div>
+    </footer>
+</body>
+</html>
